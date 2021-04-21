@@ -1,4 +1,4 @@
-<template>
+<<template>
   <div class="container d-flex flex-column min-vh-100">
     <form @submit.prevent="register">
       <h1 class="text-center my-3">Register</h1>

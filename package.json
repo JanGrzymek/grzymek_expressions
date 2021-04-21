@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "express-sessions": "^1.0.6"
+  }
+}
