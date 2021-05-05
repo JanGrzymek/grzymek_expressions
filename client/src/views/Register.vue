@@ -1,4 +1,4 @@
-<<template>
+<template>
   <div class="container d-flex flex-column min-vh-100">
     <form @submit.prevent="register">
       <h1 class="text-center my-3">Register</h1>
@@ -18,21 +18,19 @@
         </div>
       </div>
     </form>
-
     <p class="mt-4 text-center">Have an account? <a href="/login">Login</a> first!</p>
     <p class="mt-auto text-center">&copy; 2021 Robert Baumgartner</p>
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
-      name: '',
-      email: 'john@gmail.com',
-      password: '1234',
-      message: '',
+      name: "",
+      email: "john@gmail.com",
+      password: "1234",
+      message: "",
     };
   },
   methods: {
